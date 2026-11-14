@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pastel-blue: #E0F2FE;
+  --color-pastel-darkblue: #0284C7;
+  --color-pastel-green: #DCFCE7;
+  --color-pastel-darkgreen: #16A34A;
+  --color-pastel-slate: #F8FAFC;
+}
+
+/* Base styles for esun li awen */
+body {
+  background-color: var(--color-pastel-slate);
+  color: #1E293B;
+  font-family: system-ui, -apple-system, sans-serif;
+}
